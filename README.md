@@ -1,5 +1,6 @@
 # share-it
-| Modern share. No dependencies. Just JS. Just 4kb.
+
+> Modern share. No dependencies. Just JS. Just 4kb.
 
 Use share-it with one click and share your data easily!
 
@@ -88,7 +89,7 @@ share.init();
 
 ### Facebook
 
-```
+```html
 <button
   data-share
   data-share-facebook
@@ -100,7 +101,7 @@ share.init();
 
 ### Twitter
 
-```
+```html
 <button
   data-share
   data-share-twitter
@@ -115,7 +116,7 @@ share.init();
 
 ### Google+
 
-```
+```html
 <button
   data-share
   data-share-google
@@ -127,7 +128,7 @@ share.init();
 
 ### Pinterest
 
-```
+```html
 <button
   data-share
   data-share-pinterest
@@ -142,7 +143,7 @@ share.init();
 
 ### Linked In
 
-```
+```html
 <button
   data-share
   data-share-linkedin
@@ -157,7 +158,7 @@ share.init();
 
 ### Buffer
 
-```
+```html
 <button
   data-share
   data-share-buffer
@@ -170,7 +171,7 @@ share.init();
 
 ### Tumblr
 
-```
+```html
 <button
   data-share
   data-share-tumblr
@@ -184,7 +185,7 @@ share.init();
 
 ### Digg
 
-```
+```html
 <button
   data-share
   data-share-digg
@@ -197,7 +198,7 @@ share.init();
 
 ### StumbleUpon
 
-```
+```html
 <button
   data-share
   data-share-su
@@ -210,7 +211,7 @@ share.init();
 
 ### Delicious
 
-```
+```html
 <button
   data-share
   data-share-delicious
@@ -223,7 +224,7 @@ share.init();
 
 ### Reddit
 
-```
+```html
 <button
   data-share
   data-share-reddit
@@ -236,7 +237,7 @@ share.init();
 
 ### Evernote
 
-```
+```html
 <button
   data-share
   data-share-evernote
@@ -249,7 +250,7 @@ share.init();
 
 ### Wordpress
 
-```
+```html
 <button
   data-share
   data-share-wp
@@ -264,7 +265,7 @@ share.init();
 
 ### Pocket
 
-```
+```html
 <button
   data-share
   data-share-pocket
@@ -277,7 +278,7 @@ share.init();
 
 ### Whatsapp
 
-```
+```html
 <button
   data-share
   data-share-whatsapp
@@ -290,3 +291,7 @@ share.init();
 ## License
 
 MIT.
+
+Do you like? Fork and contribute :D
+
+Made with :heart:
