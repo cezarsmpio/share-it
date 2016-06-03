@@ -3,7 +3,7 @@
   "authors": [
     "Cezar Luiz <cezarluiz.c@gmail.com>"
   ],
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Modern share. No dependencies. Just JS. Just 4kb.",
   "main": "lib/index.js",
   "moduleType": [
