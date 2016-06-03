@@ -3,6 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>ShareIt by cezarlz</title>
+    <meta property="og:title" content="ShareIt">
+    <meta property="og:site_name" content="ShareIt">
+    <meta property="og:url" content="http://cezarlz.github.io/share-it">
+    <meta property="og:description" content="Modern share. No dependencies. Just JS. Just 4kb. Use share-it with one click and share your data easily!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://cezarlz.github.io/share-it/cover.png">
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@cezarlz">
+    <meta name="twitter:title" content="ShareIt">
+    <meta name="twitter:description" content="Modern share. No dependencies. Just JS. Just 4kb. Use share-it with one click and share your data easily!">
+    <meta name="twitter:image:src" content="http://cezarlz.github.io/share-it/cover.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -74,7 +85,7 @@
   <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>btn<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-facebook</span>
-  <span class="pl-e">data-share-facebook-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-facebook-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
 &gt;
   Share on Facebook
 &lt;/<span class="pl-ent">button</span>&gt;
@@ -153,10 +164,19 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-facebook</span>
-  <span class="pl-e">data-share-facebook-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-facebook-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-facebook
+  data-share-facebook-url="http://cezarlz.github.com/share-it"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="twitter" class="anchor" href="#twitter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Twitter</h3>
@@ -164,13 +184,25 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-twitter</span>
-  <span class="pl-e">data-share-twitter-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-twitter-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-twitter-title</span>=<span class="pl-s"><span class="pl-pds">"</span>May the force be with you!<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-twitter-via</span>=<span class="pl-s"><span class="pl-pds">"</span>cezar_luiz<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-twitter-hashtags</span>=<span class="pl-s"><span class="pl-pds">"</span>one,two,thre<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-twitter
+  data-share-twitter-url="http://cezarlz.github.com/share-it"
+  data-share-twitter-title="May the force be with you!"
+  data-share-twitter-via="cezar_luiz"
+  data-share-twitter-hashtags="share-it"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="google" class="anchor" href="#google" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Google+</h3>
@@ -178,10 +210,19 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-google</span>
-  <span class="pl-e">data-share-google-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-google-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-google
+  data-share-google-url="http://cezarlz.github.io/share-it"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="pinterest" class="anchor" href="#pinterest" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pinterest</h3>
@@ -189,13 +230,25 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-pinterest</span>
-  <span class="pl-e">data-share-pinterest-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
-  <span class="pl-e">data-share-pinterest-img</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com/image.jpg<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-pinterest-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-pinterest-img</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it/image.jpg<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-pinterest-is-video</span>=<span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-pinterest-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Awesome JS library!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-pinterest
+  data-share-pinterest-url="http://cezarlz.github.io/share-it"
+  data-share-pinterest-img="http://cezarlz.github.io/share-it/image.jpg"
+  data-share-pinterest-is-video="1"
+  data-share-pinterest-title="Awesome JS library!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="linked-in" class="anchor" href="#linked-in" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linked In</h3>
@@ -203,13 +256,25 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-linkedin</span>
-  <span class="pl-e">data-share-linkedin-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-linkedin-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-linkedin-title</span>=<span class="pl-s"><span class="pl-pds">"</span>My awesome article!<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-linkedin-summary</span>=<span class="pl-s"><span class="pl-pds">"</span>Description here<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-linkedin-source</span>=<span class="pl-s"><span class="pl-pds">"</span>The New York Times<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-linkedin
+  data-share-linkedin-url="http://cezarlz.github.io/share-it"
+  data-share-linkedin-title="My awesome article!"
+  data-share-linkedin-summary="Description here"
+  data-share-linkedin-source="The New York Times"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="buffer" class="anchor" href="#buffer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Buffer</h3>
@@ -217,11 +282,21 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-buffer</span>
-  <span class="pl-e">data-share-buffer-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-buffer-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-buffer-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Share It on Buffer!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-buffer
+  data-share-buffer-url="http://cezarlz.github.io/share-it"
+  data-share-buffer-title="Share It on Buffer!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="tumblr" class="anchor" href="#tumblr" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tumblr</h3>
@@ -229,12 +304,23 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-tumblr</span>
-  <span class="pl-e">data-share-tumblr-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-tumblr-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-tumblr-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Share It on Tumblr!<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-tumblr-desc</span>=<span class="pl-s"><span class="pl-pds">"</span>Description of my Tumblr!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-tumblr
+  data-share-tumblr-url="http://cezarlz.github.io/share-it"
+  data-share-tumblr-title="Share It on Tumblr!"
+  data-share-tumblr-desc="Description of my Tumblr!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="digg" class="anchor" href="#digg" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Digg</h3>
@@ -242,11 +328,21 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-digg</span>
-  <span class="pl-e">data-share-digg-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-digg-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-digg-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Share It on Digg!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-digg
+  data-share-digg-url="http://cezarlz.github.io/share-it"
+  data-share-digg-title="Share It on Digg!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="stumbleupon" class="anchor" href="#stumbleupon" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StumbleUpon</h3>
@@ -254,11 +350,21 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-su</span>
-  <span class="pl-e">data-share-su-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-su-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-su-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Share It on StumbleUpon!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-su
+  data-share-su-url="http://cezarlz.github.io/share-it"
+  data-share-su-title="Share It on StumbleUpon!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="delicious" class="anchor" href="#delicious" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Delicious</h3>
@@ -266,11 +372,21 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-delicious</span>
-  <span class="pl-e">data-share-delicious-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-delicious-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-delicious-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Save my link on Delicious!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-delicious
+  data-share-delicious-url="http://cezarlz.github.io/share-it"
+  data-share-delicious-title="Save my link on Delicious!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="reddit" class="anchor" href="#reddit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reddit</h3>
@@ -278,11 +394,21 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-reddit</span>
-  <span class="pl-e">data-share-reddit-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-reddit-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-reddit-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Share on Reddit!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-reddit
+  data-share-reddit-url="http://cezarlz.github.io/share-it"
+  data-share-reddit-title="Share on Reddit!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="evernote" class="anchor" href="#evernote" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Evernote</h3>
@@ -290,11 +416,21 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-evernote</span>
-  <span class="pl-e">data-share-evernote-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-evernote-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-evernote-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Save my link on Evernote!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-evernote
+  data-share-evernote-url="http://cezarlz.github.io/share-it"
+  data-share-evernote-title="Save my link on Evernote!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="wordpress" class="anchor" href="#wordpress" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wordpress</h3>
@@ -302,13 +438,25 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-wp</span>
-  <span class="pl-e">data-share-wp-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-wp-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-wp-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Share on Wordpress!<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-wp-desc</span>=<span class="pl-s"><span class="pl-pds">"</span>Description of my link!<span class="pl-pds">"</span></span>
-  <span class="pl-e">data-share-wp-img</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com/image.jpg<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-wp-img</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it/image.jpg<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-wp
+  data-share-wp-url="http://cezarlz.github.io/share-it"
+  data-share-wp-title="Share on Wordpress!"
+  data-share-wp-desc="Description of my link!"
+  data-share-wp-img="http://cezarlz.github.io/share-it/image.jpg"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="pocket" class="anchor" href="#pocket" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pocket</h3>
@@ -316,11 +464,21 @@
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">button</span>
   <span class="pl-e">data-share</span>
   <span class="pl-e">data-share-pocket</span>
-  <span class="pl-e">data-share-pocket-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://example.com<span class="pl-pds">"</span></span>
+  <span class="pl-e">data-share-pocket-url</span>=<span class="pl-s"><span class="pl-pds">"</span>http://cezarlz.github.io/share-it<span class="pl-pds">"</span></span>
   <span class="pl-e">data-share-pocket-title</span>=<span class="pl-s"><span class="pl-pds">"</span>Read later on Pocket!<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
+
+<button
+  data-share
+  data-share-pocket
+  data-share-pocket-url="http://cezarlz.github.io/share-it"
+  data-share-pocket-title="Read later on Pocket!"
+>
+  Share me!
+</button>
+</div>
 
 <h3>
 <a id="whatsapp" class="anchor" href="#whatsapp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Whatsapp</h3>
@@ -331,17 +489,16 @@
   <span class="pl-e">data-share-whatsapp-text</span>=<span class="pl-s"><span class="pl-pds">"</span>Share any text on Whatsapp like a message! PS: Works only in smartphones.<span class="pl-pds">"</span></span>
 &gt;
   Share me!
-&lt;/<span class="pl-ent">button</span>&gt;</pre></div>
+&lt;/<span class="pl-ent">button</span>&gt;</pre>
 
-<p>&lt;button
+<button
   data-share
   data-share-whatsapp
-  data-share-whatsapp-text="Share any text on Whatsapp like a message! PS: Works only in smartphones."</p>
-
-<blockquote>
-<p>Share me!
-</p>
-</blockquote>
+  data-share-whatsapp-text="Share any text on Whatsapp like a message! PS: Works only in smartphones."
+>
+  Share me!
+</button>
+</div>
 
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
@@ -364,6 +521,28 @@
 
     </section>
 
-  
+    <script src="bower_components/share-it/src/index.js"></script>
+    <script>
+      var share = new ShareIt({
+        specs: {
+          width: 720,
+          height: 300
+        }
+      });
+
+      share.init();
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50031701-5', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
   </body>
 </html>
