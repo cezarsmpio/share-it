@@ -4,6 +4,8 @@
 
 Use share-it with one click and share your data easily!
 
+See share-it in action: http://cezarlz.github.io/share-it/
+
 ## Supported Social Networks
 * [Facebook](#facebook)
 * [Twitter](#twitter)
@@ -25,6 +27,11 @@ Use share-it with one click and share your data easily!
 Using bower:
 ```
 bower install --save share-it
+```
+
+Using npm:
+```
+npm install --save share.it
 ```
 
 ## Usage

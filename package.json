@@ -1,0 +1,26 @@
+{
+  "name": "share.it",
+  "version": "1.0.0",
+  "description": "Modern share. No dependencies. Just JS. Just 4kb.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezarlz/share-it.git"
+  },
+  "keywords": [
+    "share",
+    "share",
+    "data",
+    "button",
+    "share"
+  ],
+  "author": "Cezar Luiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cezarlz/share-it/issues"
+  },
+  "homepage": "https://github.com/cezarlz/share-it#readme"
+}
