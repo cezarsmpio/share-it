@@ -6,6 +6,9 @@ Use share-it with one click and share your data easily!
 
 See share-it in action: http://cezarlz.github.io/share-it/
 
+![harjrwfvmr](https://cloud.githubusercontent.com/assets/954889/26737838/3bb9291e-47a2-11e7-8525-18bff2acc1ea.gif)
+
+
 ## Supported Social Networks
 * [Facebook](#facebook)
 * [Twitter](#twitter)
