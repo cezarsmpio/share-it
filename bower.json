@@ -3,7 +3,7 @@
   "authors": [
     "Cezar Luiz <cezarluiz.c@gmail.com>"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern share. No dependencies. Just JS. Just 4kb.",
   "main": "lib/index.js",
   "moduleType": [
@@ -21,7 +21,7 @@
     "share button"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "http://cezarlz.github.io/share-it/",
   "repository": {
     "type": "git",
     "url": "git@github.com:CezarLuiz0/share-it.git"

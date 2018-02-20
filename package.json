@@ -1,10 +1,12 @@
 {
   "name": "share.it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern share. No dependencies. Just JS. Just 4kb.",
-  "main": "src/index.js",
+  "main": "src/shareit.dist.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rollup --config rollup.config.js",
+    "prepare": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/cezarlz/share-it/issues"
   },
-  "homepage": "https://github.com/cezarlz/share-it#readme"
+  "homepage": "https://github.com/cezarlz/share-it#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "rollup": "^0.56.2",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
 }
