@@ -1,6 +1,6 @@
 {
   "name": "share.it",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Modern share. No dependencies. Just JS. Just 2kb gzipped.",
   "main": "src/shareit.dist.js",
   "scripts": {
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/cezarlz/share-it#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "rollup": "^0.56.2",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-uglify": "^3.0.0"

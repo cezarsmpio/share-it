@@ -9,5 +9,10 @@ export default {
     format: 'umd',
     name: 'ShareIt',
   },
-  plugins: [babel(), uglify()],
+  plugins: [
+    babel({
+      plugins: ['transform-object-rest-spread'],
+    }),
+    uglify(),
+  ],
 };
