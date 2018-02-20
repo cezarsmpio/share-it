@@ -1,6 +1,6 @@
 # share-it
 
-> Modern share. No dependencies. Just JS. Just 4kb.
+> Modern share. No dependencies. Just JS. Just 2kb gzipped.
 
 Use share-it with one click and share your data easily!
 
