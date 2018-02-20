@@ -4,7 +4,7 @@
     "Cezar Luiz <cezarluiz.c@gmail.com>"
   ],
   "version": "1.0.1",
-  "description": "Modern share. No dependencies. Just JS. Just 4kb.",
+  "description": "Modern share. No dependencies. Just JS. Just 2kb gzipped.",
   "main": "lib/index.js",
   "moduleType": [
     "globals"

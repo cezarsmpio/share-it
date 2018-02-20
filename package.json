@@ -1,7 +1,7 @@
 {
   "name": "share.it",
-  "version": "1.0.1",
-  "description": "Modern share. No dependencies. Just JS. Just 4kb.",
+  "version": "1.0.2",
+  "description": "Modern share. No dependencies. Just JS. Just 2kb gzipped.",
   "main": "src/shareit.dist.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
